@@ -50,6 +50,7 @@ def del_data():
     tel_book = '\n'.join(tel_book)
     with open('book.txt', 'w', encoding='utf-8') as f:
         f.write(tel_book)
+    print(tel_book)
     
 
 
